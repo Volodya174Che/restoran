@@ -798,11 +798,16 @@ input {
 }
 
 @media (max-width: 425px) {
+  header{
+    width: 425px;
+  }
   .modal-body {
     width: 90%;
   }
   .index__main{
     width: 425px;
   }
-  .
+  footer{
+    width: 425px;
+  }
 }
