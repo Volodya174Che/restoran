@@ -563,23 +563,15 @@ input[type="radio"] {
   border: 1px solid #dddddd;
 }
 
-.seredina {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.middate{
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .datebronH {
   text-align: left;
+
 }
 .datebronH input{
   margin-top: 10px;
@@ -623,7 +615,7 @@ input[type="radio"] {
   background-color: #fff;
 
   width: 550px;
-  height: 100%;
+  height: 80%;
 
   margin: auto;
 
@@ -854,6 +846,7 @@ input {
   .index__banner .btnOrder{
     margin-bottom: 0;
   }
+
 }
 @media (max-width: 425px){
   .index__banner .btnOrder{
@@ -879,6 +872,26 @@ input {
 
   .index__specialDishes__list .desc{
     padding: 5px 10px;
+  }
+
+  
+  .radiostol{
+    grid-template-columns: repeat(2, 0fr);
+  }
+  .radiotime{
+    grid-template-columns: repeat(3, 0fr);
+  }
+
+  .middate{
+    flex-wrap: wrap;
+  }
+  .datebronH{
+    width: 100%;
+  }
+  .kolvochel{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
   }
 }
 @media (max-width: 320px){
