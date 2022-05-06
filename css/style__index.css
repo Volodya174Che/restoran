@@ -813,6 +813,24 @@ input {
     width: 100%;
   }
 
+  .radiostol{
+    grid-template-columns: repeat(2, 0fr);
+  }
+  .radiotime{
+    grid-template-columns: repeat(3, 0fr);
+  }
+
+  .middate{
+    flex-wrap: wrap;
+  }
+  .datebronH{
+    width: 100%;
+  }
+  .kolvochel{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+  }
 
   .index__specialDishes__list,
   .index__services__list{
@@ -875,24 +893,7 @@ input {
   }
 
   
-  .radiostol{
-    grid-template-columns: repeat(2, 0fr);
-  }
-  .radiotime{
-    grid-template-columns: repeat(3, 0fr);
-  }
 
-  .middate{
-    flex-wrap: wrap;
-  }
-  .datebronH{
-    width: 100%;
-  }
-  .kolvochel{
-    margin-top: 10px;
-    width: 100%;
-    text-align: left;
-  }
 }
 @media (max-width: 320px){
   .index__services__list > div{
